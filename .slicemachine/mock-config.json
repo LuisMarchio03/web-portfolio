@@ -1,0 +1,12 @@
+{
+  "_cts": {
+    "portfolio": {
+      "aboutMe": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    }
+  }
+}
