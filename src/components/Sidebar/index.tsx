@@ -44,7 +44,7 @@ export const Sidebar = () => {
         </ul>
       </div>
 
-      <div className="w-[348px] h-[208px] bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
         <div className="w-full mb-6">
           <h2 className="text-[#837E9F] text-[20px] font-bold ml-5">
             Tecnologias
@@ -69,6 +69,67 @@ export const Sidebar = () => {
           </div>
           <div className="bg-[#896CEB] text-[#E1E1E6] w-[100px] p-1 rounded-full flex items-center justify-center mr-1 mb-3">
             Javascript
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+        <div className="w-full mb-6">
+          <h2 className="text-[#837E9F] text-[20px] font-bold ml-5 mb-5">
+            Experiências
+          </h2>
+
+          <div className="ml-12">
+            <ul className="list-disc">
+              <li>
+                <strong>Teste</strong>
+                <p className="ml-2">2019 - Atualmente</p>
+                <p className="ml-2">Community Experience</p>
+              </li>
+              <li>
+                <strong>Teste</strong>
+                <p className="ml-2">2019 - Atualmente</p>
+                <p className="ml-2">Community Experience</p>
+              </li>
+              <li>
+                <strong>Teste</strong>
+                <p className="ml-2">2019 - Atualmente</p>
+                <p className="ml-2">Community Experience</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+        <div className="w-full mb-6">
+          <h2 className="text-[#837E9F] text-[20px] font-bold ml-5 mb-5">
+            Educação
+          </h2>
+
+          <div className="ml-12">
+            <ul className="list-disc">
+              <li>
+                <strong>Rocketseat</strong>
+                <p className="ml-2">2022 - 2022</p>
+                <p className="ml-2">Trilha Node.js</p>
+              </li>
+              <li>
+                <strong>Rocketseat</strong>
+                <p className="ml-2">2022 - 2022</p>
+                <p className="ml-2">Trilha Node.js</p>
+              </li>
+              <li>
+                <strong>Rocketseat</strong>
+                <p className="ml-2">2022 - 2022</p>
+                <p className="ml-2">Trilha Node.js</p>
+              </li>
+              <li>
+                <strong>Rocketseat</strong>
+                <p className="ml-2">2022 - 2022</p>
+                <p className="ml-2">Trilha Node.js</p>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
