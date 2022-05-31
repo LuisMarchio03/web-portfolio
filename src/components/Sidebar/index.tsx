@@ -8,7 +8,7 @@ import {
 
 export const Sidebar = () => {
   return (
-    <aside className="w-[100%] h-[100%]">
+    <aside className="w-[348px] h-[100%]">
       <div className="w-[348px] h-[292px] bg-[#302F3D] mb-8 flex flex-col items-center justify-center rounded-2xl">
         <div className="w-[100px] h-[100px] rounded-full bg-slate-400 mb-4 border-2 border-[#00FF00]"></div>
         <h1 className="text-[#837E9F] text-[20px] font-bold mb-1">
