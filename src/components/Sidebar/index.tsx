@@ -5,14 +5,14 @@ import {
   GitBranch,
   LinkedinLogo,
   MapPin,
-  Phone,
+  WhatsappLogo,
   Suitcase,
 } from "phosphor-react";
 
 export const Sidebar = () => {
   return (
-    <aside className="w-[348px] h-[100%]">
-      <div className="w-[348px] h-[292px] bg-[#302F3D] mb-8 flex flex-col items-center justify-center rounded-2xl">
+    <aside className="w-[100%] lg:w-[348px] h-[100%]">
+      <div className="w-[100%] lg:w-[348px] h-[292px] bg-[#302F3D] mb-8 flex flex-col items-center justify-center rounded-2xl">
         <div className="w-[100px] h-[100px] rounded-full bg-slate-400 mb-4 border-2 border-[#00FF00]">
           <Image
             src="/img/foto.jpeg"
@@ -30,7 +30,7 @@ export const Sidebar = () => {
         </p>
       </div>
 
-      <div className="w-[348px] h-[348px] bg-[#302F3D] text-[#837E9F] mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[100%] lg:w-[348px] h-[348px] bg-[#302F3D] text-[#837E9F] mb-8 flex flex-col justify-center items-center rounded-2xl">
         <ul>
           <li className="flex items-center mb-4">
             <MapPin size={32} />
@@ -61,13 +61,13 @@ export const Sidebar = () => {
             <span className="pl-3">luisgabrielmarchio75@gmail.com</span>
           </li>
           <li className="flex items-center">
-            <Phone size={32} />
+            <WhatsappLogo size={32} />
             <span className="pl-3">(64) 9 9991-8525</span>
           </li>
         </ul>
       </div>
 
-      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[100%] lg:w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
         <div className="w-full mb-6">
           <h2 className="text-[#837E9F] text-[20px] font-bold ml-5">
             Tecnologias
@@ -96,7 +96,7 @@ export const Sidebar = () => {
         </div>
       </div>
 
-      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[100%] lg:w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
         <div className="w-full mb-6">
           <h2 className="text-[#837E9F] text-[20px] font-bold ml-5">
             Estudos e interesses
@@ -116,7 +116,7 @@ export const Sidebar = () => {
         </div>
       </div>
 
-      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[100%] lg:w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
         <div className="w-full mb-6">
           <h2 className="text-[#837E9F] text-[20px] font-bold ml-5 mb-5">
             Experiências
@@ -136,7 +136,7 @@ export const Sidebar = () => {
         </div>
       </div>
 
-      <div className="w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[100%] lg:w-[348px] pt-8 pb-8 bg-[#302F3D] text-[#837E9F]  mb-8 flex flex-col justify-center items-center rounded-2xl">
         <div className="w-full mb-6">
           <h2 className="text-[#837E9F] text-[20px] font-bold ml-5 mb-5">
             Educação

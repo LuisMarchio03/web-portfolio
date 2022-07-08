@@ -1,34 +1,34 @@
 import Head from "next/head";
 import Link from "next/link";
 import type { NextPage } from "next";
+import { useWindowDimensions } from "../hooks/useWindowDimensions";
 import { Circle, Folder } from "phosphor-react";
 import { Sidebar } from "../components/Sidebar";
 
 const Home: NextPage = () => {
+  const { width } = useWindowDimensions();
+
   return (
     <>
       <Head>
         <title>Home | Luís Gabriel</title>
       </Head>
 
-      <main className="py-8 px-8 flex">
+      <main className="py-8 px-8 lg:flex">
         <Sidebar />
 
-        <section className="w-[calc(100%_-_380px)] ml-12 flex flex-col gap-8">
+        <section className="w-[100%] lg:w-[calc(100%_-_380px)] ml-0 lg:ml-12 flex flex-col gap-8">
           <>
             <div className="w-[100%] h-[86px] mb-12 bg-[#302F3D] text-[837E9F] text-[20px] font-bold flex items-center pl-6 rounded-2xl">
               Meus Projetos
             </div>
 
-            <div className="w-[100%] h-auto flex gap-8">
+            <div className="w-[100%] h-auto flex flex-col lg:flex-row gap-8">
               <Link
                 href="https://github.com/LuisMarchio03/api-ecommerce"
                 target="_blank"
               >
-                <a
-                  target="_blank"
-                  className="relative w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer"
-                >
+                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Api-Ecommerce
@@ -41,17 +41,14 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#7cb803" />
                     <p className="ml-2">Node.js | Typescript</p>
                   </span>
-                </a>
+                </div>
               </Link>
 
               <Link
                 href="https://github.com/LuisMarchio03/Feedget"
                 target="_blank"
               >
-                <a
-                  target="_blank"
-                  className="relative w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer"
-                >
+                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Feedget
@@ -65,19 +62,16 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#2676c6" />
                     <p className="ml-2">Typescript</p>
                   </span>
-                </a>
+                </div>
               </Link>
             </div>
 
-            <div className="w-[100%] h-auto flex gap-8">
+            <div className="w-[100%] h-auto flex flex-col lg:flex-row gap-8">
               <Link
                 href="https://github.com/LuisMarchio03/ignite-rentx"
                 target="_blank"
               >
-                <a
-                  target="_blank"
-                  className="relative w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer"
-                >
+                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Ignite Rentx
@@ -91,17 +85,14 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#7cb803" />
                     <p className="ml-2">Node.js | Typescript</p>
                   </span>
-                </a>
+                </div>
               </Link>
 
               <Link
                 href="https://github.com/LuisMarchio03/rocketseat-ignite-lab"
                 target="_blank"
               >
-                <a
-                  target="_blank"
-                  className="relative w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer"
-                >
+                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Ignite Lab
@@ -116,7 +107,7 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#2676c6" />
                     <p className="ml-2">Typescript</p>
                   </span>
-                </a>
+                </div>
               </Link>
             </div>
           </>
