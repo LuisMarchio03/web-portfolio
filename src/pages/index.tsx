@@ -13,21 +13,21 @@ const Home: NextPage = () => {
       <Head>
         <title>Luís Gabriel Marchió Batista</title>
         <meta name="title" content="Luís Gabriel Marchió Batista" />
-        <meta name="description" content="" />
+        <meta name="description" content="Desenvolvedor web - full-stack | React.js | Node.js" />
 
 
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://web-portfolio-iota-nine.vercel.app/" />
         <meta property="og:title" content="Luís Gabriel Marchió Batista" />
-        <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:description" content="Desenvolvedor web - full-stack | React.js | Node.js" />
+        <meta property="og:image" content="/img/foto.jpeg" />
 
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://web-portfolio-iota-nine.vercel.app/" />
         <meta property="twitter:title" content="Luís Gabriel Marchió Batista" />
-        <meta property="twitter:description" content="" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:description" content="Desenvolvedor web - full-stack | React.js | Node.js" />
+        <meta property="twitter:image" content="/img/foto.jpeg" />
       </Head>
 
       <main className="py-8 px-8 lg:flex">
