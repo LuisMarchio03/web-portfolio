@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                 href="https://github.com/LuisMarchio03/api-ecommerce"
                 target="_blank"
               >
-                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
+                <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Api-Ecommerce
@@ -57,14 +57,14 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#7cb803" />
                     <p className="ml-2">Node.js | Typescript</p>
                   </span>
-                </div>
+                </a>
               </Link>
 
               <Link
                 href="https://github.com/LuisMarchio03/Feedget"
                 target="_blank"
               >
-                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
+                <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Feedget
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#2676c6" />
                     <p className="ml-2">Typescript</p>
                   </span>
-                </div>
+                </a>
               </Link>
             </div>
 
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
                 href="https://github.com/LuisMarchio03/ignite-rentx"
                 target="_blank"
               >
-                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
+                <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Ignite Rentx
@@ -101,14 +101,14 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#7cb803" />
                     <p className="ml-2">Node.js | Typescript</p>
                   </span>
-                </div>
+                </a>
               </Link>
 
               <Link
                 href="https://github.com/LuisMarchio03/rocketseat-ignite-lab"
                 target="_blank"
               >
-                <div className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
+                <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
                     Ignite Lab
@@ -123,7 +123,7 @@ const Home: NextPage = () => {
                     <Circle size={15} weight="fill" color="#2676c6" />
                     <p className="ml-2">Typescript</p>
                   </span>
-                </div>
+                </a>
               </Link>
             </div>
           </>

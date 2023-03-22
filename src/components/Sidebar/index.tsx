@@ -7,6 +7,7 @@ import {
   MapPin,
   WhatsappLogo,
   Suitcase,
+  Download
 } from "phosphor-react";
 
 export const Sidebar = () => {
@@ -15,7 +16,7 @@ export const Sidebar = () => {
       <div className="w-[100%] lg:w-[348px] h-[292px] bg-[#302F3D] mb-8 flex flex-col items-center justify-center rounded-2xl">
         <div className="w-[100px] h-[100px] rounded-full bg-slate-400 mb-4 border-2 border-[#00FF00]">
           <Image
-            src="/img/foto.jpeg"
+            src="/img/foto3.jpg"
             alt="Luís Gabriel Marchió Batista"
             width={100}
             height={100}
@@ -30,7 +31,7 @@ export const Sidebar = () => {
         </p>
       </div>
 
-      <div className="w-[100%] lg:w-[348px] h-[348px] bg-[#302F3D] text-[#837E9F] mb-8 flex flex-col justify-center items-center rounded-2xl">
+      <div className="w-[100%] lg:w-[348px] h-[388px] bg-[#302F3D] text-[#837E9F] mb-8 flex flex-col justify-center items-center rounded-2xl">
         <ul>
           <li className="flex items-center mb-4">
             <MapPin size={32} />
@@ -60,9 +61,17 @@ export const Sidebar = () => {
             <EnvelopeSimple size={32} />
             <span className="pl-3">luisgabrielmarchio75@gmail.com</span>
           </li>
-          <li className="flex items-center">
+          <li className="flex items-center mb-4">
             <WhatsappLogo size={32} />
             <span className="pl-3">(64) 9 9991-8525</span>
+          </li>
+          <li className="flex items-center">
+            <Download size={32} />
+            <Link href="/curriculo">
+              <a target="_blank">
+                <span className="pl-3">Currículo</span>
+              </a>
+            </Link>
           </li>
         </ul>
       </div>
