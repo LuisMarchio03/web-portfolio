@@ -14,9 +14,10 @@ export const Sidebar = () => {
   return (
     <aside className="w-[100%] lg:w-[348px] h-[100%]">
       <div className="w-[100%] lg:w-[348px] h-[292px] bg-[#302F3D] mb-8 flex flex-col items-center justify-center rounded-2xl">
-        <div className="w-[100px] h-[100px] rounded-full bg-slate-400 mb-4 border-2 border-[#00FF00]">
+        {/* <div className="w-[100px] h-[100px] rounded-full bg-slate-400 mb-4 border-2 border-[#00FF00]"> */}
+        <div className="w-[100px] h-[100px] rounded-full bg-slate-400 mb-4">
           <Image
-            src="/img/foto3.jpg"
+            src="/img/avatar.png"
             alt="Luís Gabriel Marchió Batista"
             width={100}
             height={100}
