@@ -61,22 +61,63 @@ const Home: NextPage = () => {
               </Link>
 
               <Link
-                href="https://github.com/LuisMarchio03/Feedget"
+                href="https://github.com/LuisMarchio03/FidelityApp"
                 target="_blank"
               >
                 <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
-                    Feedget
+                    FidelityApp
                   </h2>
 
                   <p className="pb-8 pt-4">
-                    Feedget | React.js, Tailwind, Acessibility, Microservices,
-                    Solid, Test-automation, React Native
+                    FidelityApp | GoLang + Gin + GORM + Sqlite + Docker + JWT + Bcrypt
+                  </p>
+                  <span className="absolute bottom-5 right-5 flex items-center ">
+                    <Circle size={15} weight="fill" color="#5e9ad7" />
+                    <p className="ml-2">Golang</p>
+                  </span>
+                </a>
+              </Link>
+            </div>
+
+            <div className="w-[100%] h-auto flex flex-col lg:flex-row gap-8">
+              <Link
+                href="https://github.com/LuisMarchio03/golang-boilerplate-api"
+                target="_blank"
+              >
+                <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
+                  <h2 className="text-[20px] font-bold flex items-center gap-2">
+                    <Folder size={32} weight="light" />
+                    golang-boilerplate-api
+                  </h2>
+
+                  <p className="pb-8 pt-4">
+                  A job opportunities API built using Golang. The API uses Go-Gin as a router, SQLite as a database, and GoORM for database communication. It also includes Swagger for documentation and testing, and a well-organized package structure.
+                  </p>
+                  <span className="absolute bottom-5 right-5 flex items-center ">
+                    <Circle size={15} weight="fill" color="#5e9ad7" />
+                    <p className="ml-2">Golang</p>
+                  </span>
+                </a>
+              </Link>
+              
+              <Link
+                href="https://github.com/LuisMarchio03/MoneyTransferApi"
+                target="_blank"
+              >
+                <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
+                  <h2 className="text-[20px] font-bold flex items-center gap-2">
+                    <Folder size={32} weight="light" />
+                    MoneyTransferApi
+                  </h2>
+
+                  <p className="pb-8 pt-4">
+                    This is a project for a money transfer API built using Golang and Nodejs + Servelles framework + AWS Lambda. The API allows for transferring money between accounts and also includes the ability to cancel transfers. It also uses RabbitMQ for message queuing.
                   </p>
                   <span className="absolute bottom-5 right-5 flex items-center ">
                     <Circle size={15} weight="fill" color="#2676c6" />
-                    <p className="ml-2">Typescript</p>
+                    <p className="ml-2">Golang | Typescript</p>
                   </span>
                 </a>
               </Link>
@@ -111,17 +152,15 @@ const Home: NextPage = () => {
                 <a target="_blank" className="relative w-[100%] lg:w-[50%] p-8 bg-[#302F3D] text-[837E9F] rounded-xl border-b cursor-pointer">
                   <h2 className="text-[20px] font-bold flex items-center gap-2">
                     <Folder size={32} weight="light" />
-                    Ignite Lab
+                    professional-react-project-using-jest-testing-library-react-and-storybook
                   </h2>
 
                   <p className="pb-8 pt-4">
-                    Projeto completo Desenvolvido durante a maratona Ignite Lab
-                    01 | Nest.js + Microservice + GraphQL + Apollo + Next.js +
-                    Typescript + PrismaIO
+                    Projeto desenvolvido durante o curso professional-react-project-using-jest-testing-library-react-and-storybook | React + Typescript + Jest + Testing Library + Storybook + React Testing Library
                   </p>
                   <span className="absolute bottom-5 right-5 flex items-center ">
-                    <Circle size={15} weight="fill" color="#2676c6" />
-                    <p className="ml-2">Typescript</p>
+                    <Circle size={15} weight="fill" color="#784abe" />
+                    <p className="ml-2">HTML | CSS | TypeScript</p>
                   </span>
                 </a>
               </Link>
